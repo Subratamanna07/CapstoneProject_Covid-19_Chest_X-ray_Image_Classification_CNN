@@ -15,7 +15,7 @@ The dataset used in this project consists of chest X-ray images collected from i
 ## Usage
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/your-repository.git
+   https://github.com/Subratamanna07/CapstoneProject_Covid-19_Chest_X-ray_Image_Classification_CNN.git
    ```
 
 2. Install the required dependencies (e.g., TensorFlow, Keras).
