@@ -2,7 +2,9 @@
 
 This repository contains a Convolutional Neural Network (CNN) implementation for classifying COVID-19 from chest X-ray images. The models used for classification are VGG16 and ResNet50, two popular deep learning architectures known for their excellent performance in image classification tasks.
 
-## Dataset
+## [Dataset](https://www.kaggle.com/datasets/pranavraikokte/covid19-image-dataset/download?datasetVersionNumber=2)
+Click on the Dataset to download the dataset.
+
 The dataset used in this project consists of chest X-ray images collected from individuals with and without COVID-19. The dataset is preprocessed and divided into training and testing sets to train and evaluate the models effectively. Each image is labeled as COVID-19 positive or negative to facilitate supervised learning.
 
 ## Models
@@ -40,18 +42,14 @@ The dataset used in this project consists of chest X-ray images collected from i
 ## Results
 Document and showcase the results achieved by each model, including accuracy, precision, recall, and F1-score. Compare the performance of CNN, VGG16, and ResNet50 on the COVID-19 chest X-ray classification task. Provide insights into their strengths, limitations, and potential areas for improvement.
 
-## Credits
-Give credit to any resources, datasets, or references used in the project. Acknowledge the sources of chest X-ray images and any preexisting implementations or code that served as a reference.
+## Further Improvements
+To further improve the models and their application, consider the following:
 
-## License
-Specify the license under which the code is released (e.g., MIT License, Apache License 2.0) to clarify the terms of use and distribution.
-
-## Contributions
-Indicate whether contributions to the repository are welcome and provide guidelines for submitting pull requests.
-
-## Future Work
-Suggest possible avenues for future work and enhancements to the project, such as exploring different architectures, incorporating transfer learning, or addressing limitations in the current implementation.
-
-## Disclaimer
-Include a disclaimer to ensure users understand the limitations of the classification model and emphasize that it should not be considered a substitute for professional medical diagnosis or treatment.
+- Experiment with other pre-trained models and architectures to explore their performance and suitability for the classification task.
+- Augment the dataset with additional labeled examples or consider using transfer learning techniques to leverage larger external 
+  datasets.
+- Explore ensemble methods by combining the predictions of multiple models to enhance classification accuracy.
+- Deploy the best-performing model as a web or mobile application for real-time COVID-19 detection
+## Conclusion
+In conclusion, this project demonstrates the development and evaluation of deep learning models for COVID-19 chest X-ray classification. The models achieve high accuracy and provide valuable insights for the detection and diagnosis of COVID-19 cases. By leveraging pre-trained architectures and fine-tuning them for the specific task, accurate classification results can be obtained. The project highlights the potential of deep learning in aiding healthcare professionals in identifying COVID-19 cases from chest X-ray images.
 
